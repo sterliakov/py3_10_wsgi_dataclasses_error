@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - APP_USER=user1
+        - SERVER_NAME=localhost
+        - SERVER_ADMIN=webmaster@localhost
+    ports:
+      - 8000:80
+    networks:
+      - djangonetwork
+    restart: always
+
+networks:
+  djangonetwork:
+    driver: bridge
