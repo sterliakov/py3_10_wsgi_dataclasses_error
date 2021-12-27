@@ -1,4 +1,6 @@
-[Fri Dec 24 13:59:09.515468 2021] [mpm_event:notice] [pid 171771:tid 140352125652288] AH00489: Apache/2.4.46 (Ubuntu) mod_wsgi/4.9.0 Python/3.10 configured -- resuming normal operations
-[Fri Dec 24 13:59:09.516152 2021] [core:notice] [pid 171771:tid 140352125652288] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /tmp/mod_wsgi-localhost:8000:1000/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE -D FOREGROUND'
-[Fri Dec 24 04:59:11.647334 2021] [wsgi:error] [pid 171773:tid 140352060634688] [remote 127.0.0.1:50094] Not Found: /static/admin/css/fonts.css
-[Fri Dec 24 13:59:14.469302 2021] [mpm_event:notice] [pid 171771:tid 140352125652288] AH00491: caught SIGTERM, shutting down
+[Mon Dec 27 13:02:43.470008 2021] [mpm_event:notice] [pid 13549:tid 140186897050944] AH00489: Apache/2.4.46 (Ubuntu) mod_wsgi/4.9.0 Python/3.10 configured -- resuming normal operations
+[Mon Dec 27 13:02:43.470169 2021] [core:notice] [pid 13549:tid 140186897050944] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /tmp/mod_wsgi-localhost:8000:1000/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE -D FOREGROUND'
+[Mon Dec 27 13:02:48.108124 2021] [mpm_event:notice] [pid 13549:tid 140186897050944] AH00491: caught SIGTERM, shutting down
+[Mon Dec 27 14:27:59.753554 2021] [mpm_event:notice] [pid 38970:tid 140475739774272] AH00489: Apache/2.4.46 (Ubuntu) mod_wsgi/4.9.0 Python/3.10 configured -- resuming normal operations
+[Mon Dec 27 14:27:59.765610 2021] [core:notice] [pid 38970:tid 140475739774272] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /tmp/mod_wsgi-localhost:8000:1000/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE -D FOREGROUND'
+[Mon Dec 27 14:28:10.087473 2021] [mpm_event:notice] [pid 38970:tid 140475739774272] AH00491: caught SIGTERM, shutting down

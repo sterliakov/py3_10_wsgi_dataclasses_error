@@ -6,9 +6,9 @@ import time
 
 import mod_wsgi.server
 
-working_directory = r'/home/stas/Documents/Work/proof/proof'
+working_directory = r'/home/stas/Documents/Work/proof'
 
-entry_point = r'/home/stas/Documents/Work/proof/proof/proof/wsgi.py'
+entry_point = r'/home/stas/Documents/Work/proof/wsgi.py'
 application_type = 'script'
 callable_object = 'application'
 mount_point = '/'

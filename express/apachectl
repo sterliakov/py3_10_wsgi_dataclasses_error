@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# ['/home/stas/Documents/Work/proof/pyenv/bin/mod_wsgi-express', 'start-server', 'proof/wsgi.py']
+# ['/home/stas/Documents/Work/proof/pyenv/bin/mod_wsgi-express', 'start-server', 'wsgi.py', '--port', '8000']
 
 HTTPD="/usr/sbin/apache2"
 HTTPD_ARGS="-f /tmp/mod_wsgi-localhost:8000:1000/httpd.conf -DMOD_WSGI_KEEP_ALIVE -DMOD_WSGI_MPM_ENABLE_EVENT_MODULE -DMOD_WSGI_MPM_EXISTS_EVENT_MODULE -DMOD_WSGI_MPM_EXISTS_WORKER_MODULE -DMOD_WSGI_MPM_EXISTS_PREFORK_MODULE"
@@ -55,7 +55,7 @@ EOF
 
 fi
 
-MOD_WSGI_WORKING_DIRECTORY="/home/stas/Documents/Work/proof/proof"
+MOD_WSGI_WORKING_DIRECTORY="/home/stas/Documents/Work/proof"
 
 export MOD_WSGI_WORKING_DIRECTORY
 
