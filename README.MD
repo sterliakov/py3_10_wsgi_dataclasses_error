@@ -8,7 +8,7 @@ The traceback is:
 
 ```
 File "/var/www/html/proof/wsgi.py", line 9, in <module>
-  Test('bar')
+  Test('a')
 TypeError: Test() takes no arguments
 ``` 
 
